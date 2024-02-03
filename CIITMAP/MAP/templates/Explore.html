@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'static/css/WEBSITE STYLE SHEET.CSS' %}" >
+    <title>Explore</title>
+    <div class="exploreTitle"><h1>Which floor would you like to explore today?<h1></div>
+</head>
+<body>
+    <video autoplay loop muted plays-inline class = "back-video">
+        <source src = "{% static 'static/images/bgvidex.mp4'%}" type = "video/mp4">
+    </video>
+    <img class = "ciitlogo" src = "{% static 'static/images/CIIT-logo.png' %}">
+    <a class="explorebackbutton" href = "homepage">BACK</a>
+    <img class="frontview" src = "{% static 'static/images/CIIT Front View.jpg' %}">
+    <a class="floorOverview" href= "/overview">Overview</a>
+    <a class="floorSevenButton" href = "/floor7">Floor 7</a>
+    <a class="floorSixButton" href = "/floor6">Floor 6</a>
+    <a class="floorFiveButton" href = "/floor5">Floor 5</a>
+    <a class="floorFourButton" href = "/floor4">Floor 4</a>
+    <a class="floorThreeButton" href = "/floor3">Floor 3</a>
+    <a class="floorTwoButton" href = "/floor2">Floor 2</a>
+    <a class="floorOneButton" href = "/floor1">Floor 1</a>
+    <p class = "contentmp"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Disclaimer: CIIT front view and floor plan were sourced from<br><br><br>https://bluprint.onemega.com/buensalido-architects-retrofit-ciit-interweave-building/</p>
+    <p class = "exploreGuide"><br><br><b>&emsp;Floor 7:</b><br>&emsp;Gym&emsp;&emsp;&emsp;Shower Rooms<br>&emsp;Bleachers&emsp;&ensp;Canteen<br>&emsp;Facilities Department</p>
+    <p class = "exploreGuide"><br><br><br><br><br><br><br><b>&emsp;Floor 6: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Floor 5:</b><br>&emsp;601-602 Computer Lab&emsp;&ensp;&emsp;501-502 Computer Lab<br>&emsp;603-606 Lecture Room&emsp;&ensp;&emsp;503-306 Lecture Room</p>
+    <iframe align="right"  width="58%" height="475px" allowFullScreen="true" allow="accelerometer; magnetometer; gyroscope" style="display:block; border:0 none; max-width:880px;border-radius:8px; box-shadow: 0 1px 1px rgba(0,0,0,0.11),0 2px 2px rgba(0,0,0,0.11),0 4px 4px rgba(0,0,0,0.11),0 6px 8px rgba(0,0,0,0.11),0 8px 16px rgba(0,0,0,0.11) float: left;" src="https://panoraven.com/en/embed/Cq71rYKJrD"></iframe>
+    <p class = "exploreGuide"><br><br><br><br><br><br><br><b>&emsp;Floor 4:</b><br>&emsp;Faculty Room&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Conference Rooms&emsp;&emsp;401 - 403 Lecture Room<br>&emsp;Discipline Office&emsp;&emsp;&emsp;&emsp;&emsp;Student Affairs Office&emsp;&nbsp;Dean's Office<br>&emsp;Placement Office&emsp;&emsp;&ensp;&emsp;&emsp;Principal's Office&emsp;&emsp;&emsp;&nbsp;Guidance Counsellor</p>
+    <p class = "exploreGuide"><br><br><br><br><br><br><br><b>&emsp;Floor 3:</b><br>&emsp;Finance&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Recording Room&emsp;&emsp;&emsp;Registrar's Office<br>&emsp;Control Room&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Data Center&emsp;&emsp;&emsp;&emsp;&emsp;HR Department<br>&emsp;302 Studio&emsp;&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;Meeting Rooms&emsp;&emsp;&emsp;&nbsp;301 Lab<br>&emsp;Admissions/BDD Office</p>
+    <p class = "exploreGuide"><br><br><br><br><br><br><br><b>&emsp;Floor 2:</b><br>&emsp;Reception Area&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Clinic&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Library<br>&emsp;Student Council Area&emsp;&emsp;&emsp;Cafe</p>
+    <p class = "exploreGuide"><br><br><br><br><br><br><br><b>&emsp;Floor 1:</b><br>&emsp;Security Desk&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Parking Space</p>
+</body>
+</html>

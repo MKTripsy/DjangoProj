@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'static/css/WEBSITE STYLE SHEET.CSS' %}" >
+  <title>About Us</title>
+</head>
+
+<body>
+<video autoplay loop muted plays-inline class = "back-video">
+  <source src = "{% static 'static/images/bgvidau.mp4'%}" type = "video/mp4">
+</video>
+<img class = "ciitlogo" src = "{% static 'static/images/CIIT-logo.png' %}">
+<div class="page2Title"><h1>The nerds behind<h1></div>
+<div class="page2Title2"><h1>CIITouring Map<h1></div>
+<a class="backbuttonau" href = "/homepage">BACK</a>
+</div>
+
+<div style=
+"margin-left: 5%;
+margin-right: 50px;
+margin-top: 10px;
+
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr; 
+ column-gap: 50px; row-gap: 50px;"
+>
+<div>
+     <div><img class= "image" src= "{% static 'static/images/ador.jpg' %}"></div>
+     <div><p class ="name">CLYDE TIMOTHY ADOR</p></div>
+     <p class = "section">BSCS</p>
+     <p class = "intro">DJANGO/PYTHON</p>
+     <a class="adorbutton" href = "/adorprofile">LEARN MORE</a>
+</div>
+
+<div>
+  <div><img class= "image" src= "{% static 'static/images/maravilla.jpg' %}"></div>
+  <div><p class ="name">JON MAYTRIX JOAQUIN MARAVILLA</p></div>
+  <p class = "section">BSCS</p>
+  <p class = "intro">DJANGO/PYTHON</p>
+  <a class="maravillabutton" href = "maravillaprofile" >LEARN MORE</a>
+</div>
+
+<div>
+  <div><img class= "image" src= "{% static 'static/images/tripolca.jpg' %}"></div>
+  <div><p class ="name">JAN CHRISTIANSEN TRIPOLCA</p></div>
+  <p class = "section">BSCS</p>
+  <p class = "intro">&nbsp;&nbsp;&nbsp;&nbsp;HTML/CSS</p>
+  <a class="tripolcabutton" href = "tripolcaprofile">LEARN MORE</a>
+</div>
+</body>
+</html>
